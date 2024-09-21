@@ -1,4 +1,9 @@
 import ReactDOM from "react-dom/client";
+import App from './App.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<h1>codeit</h1>);
+root.render(
+  <>
+  <App></App>
+  </>
+);

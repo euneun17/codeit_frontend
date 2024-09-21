@@ -1,0 +1,27 @@
+.GroupCardBoard {
+  width: 375px;
+  height: 561px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--gray-gray_DDDDDD, #DDD);
+  background: var(--gray-gray_FAFAFA, #FAFAFA);
+  text-align: center;
+}
+
+.GroupCardImage {
+  width: 335px;
+  height: 335px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin: 20px 20px 0px 20px;
+}
+
+.GroupCardContent {
+  display: flex;
+width: 335px;
+height: 166px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+flex-shrink: 0;
+}
